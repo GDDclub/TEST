@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj2rs3ddjoluj"]
+
+[ext_resource type="Script" path="res://character.gd" id="1_oik4p"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.362629, -1.04238)
+size = Vector3(3.30382, 0.0141198, 4.5976)
+
+[node name="character" type="Camera3D" parent="."]
+script = ExtResource("1_oik4p")
